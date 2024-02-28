@@ -1,0 +1,151 @@
+body {
+  background-color: azure;
+}
+
+body p {
+  text-align: center;
+  color: black;
+}
+
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo {
+  text-align: center;
+}
+
+section.HeroImage {
+  height: 600px;
+  padding: 25px;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+
+
+}
+
+/* Style the header */
+header {
+  background-color: #333; /* Choose your desired background color */
+  padding: 10px 0; /* Adjust padding as needed */
+  text-align: center; /* Center align the content */
+}
+
+.logo {
+  display: inline-block;
+}
+
+.logo img {
+  width: 200px; /* Adjust the width as needed */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px; /* Adjust spacing between menu items */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove margin from last item to avoid extra spacing */
+}
+
+nav ul li a {
+  color: #fff; /* Choose your desired text color */
+  text-decoration: none;
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+/* Ensure paragraph content wraps onto multiple lines */
+.content p {
+  word-wrap: break-word; /* Allow words to break onto multiple lines */
+  overflow-wrap: break-word; /* Ensure compatibility with older browsers */
+  text-align: center; /* Center the paragraph content */
+  color: black; /* Set text color to black */
+}
+
+/* Adjust the footer position */
+footer {
+  position: relative; /* Change position to relative */
+  margin-top: 20px; /* Add margin to create space between content and footer */
+  background-color: #373738;
+  padding: 20px; /* Adjust padding as needed */
+  text-align: center;
+}
+
+footer ul {
+  display: inline-block;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 3px;
+  margin: 0 10px;
+}
+
+footer ul li a {
+  color: #fff; /* Choose your desired text color */
+  text-decoration: none;
+  font-size: 16px; /* Adjust font size as needed */
+
+  /* Ensure paragraph content wraps onto multiple lines */
+.content p {
+  word-wrap: break-word; /* Allow words to break onto multiple lines */
+  overflow-wrap: break-word; /* Ensure compatibility with older browsers */
+  text-align: center; /* Center the paragraph content */
+  color: black; /* Set text color to black */
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skillCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+}
+
+#myWork-Grid {
+  display: grid;
+  grid-template-rows: max-content 3fr 3fr 3fr max-content;
+}
+
+.project-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Mobile media query */
+  
+  /* Adjustments for flex containers */
+  .flexContainer {
+    flex-direction: column; /* Change flex direction to column for stacking items vertically */
+    align-items: center; /* Center align items */
+  }
+
+  /* Adjustments for grid containers */
+  #myWork-Grid {
+    grid-template-rows: auto; /* Reset grid-template-rows to default */
+    grid-template-columns: 1fr; /* Use a single column layout */
+  }
+
+  .project-card {
+    display: block; /* Revert display back to block */
+  }
+}
+
+
+}
