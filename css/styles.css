@@ -81,4 +81,21 @@ footer {
   font-size: 16px;
 }
 
+#mySkills {
+  text-align: center;
+}
+
+.flexContainer {
+  display: flex;
+  flex-direction: column; /* Set flex direction to column */
+  align-items: center; /* Align items along the center horizontally */
+}
+
+.skillCard {
+  margin: 20px auto; /* Adjust margin for vertical spacing */
+  max-width: 300px; /* Set maximum width for each skill card */
+}
+
+
+
 
